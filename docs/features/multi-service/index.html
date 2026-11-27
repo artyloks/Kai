@@ -23,7 +23,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
     
     
       
@@ -31,10 +31,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -893,6 +893,258 @@
   
   
     <li class="md-nav__item">
+      <a href="../on-device-inference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    On-Device Inference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reasoning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reasoning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../system-prompts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System Prompts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sandbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linux Sandbox
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kai-build/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kai Build
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notifications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notifications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SMS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appearance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appearance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../settings-export-import/" class="md-nav__link">
         
   
@@ -945,6 +1197,33 @@
           </ul>
         </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../desktop-release-smoketest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Desktop Release Smoke Test
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -1215,8 +1494,8 @@
 
 
 <h1 id="multi-service">Multi-Service</h1>
-<p><strong>Last verified:</strong> 2026-09-07</p>
-<p>Kai supports 29 LLM providers (plus a built-in Free tier). Each provider uses one of three API formats: <strong>OpenAI-compatible</strong> (most services), <strong>Gemini native</strong>, or <strong>Anthropic native</strong> -- plus <strong>LiteRT on-device</strong> for local inference. A handful of OpenAI models additionally require OpenAI's <strong>Responses API</strong>; Kai switches to it per model, transparently. Users can configure multiple service instances, reorder them, and Kai automatically falls back through the chain on failure.</p>
+<p><strong>Last verified:</strong> 2026-10-02</p>
+<p>Kai supports 31 LLM providers (plus a built-in Free tier). Each provider uses one of three API formats: <strong>OpenAI-compatible</strong> (most services), <strong>Gemini native</strong>, or <strong>Anthropic native</strong> -- plus <strong>LiteRT on-device</strong> for local inference. A handful of OpenAI models additionally require OpenAI's <strong>Responses API</strong>; Kai switches to it per model, transparently. Users can configure multiple service instances, reorder them, and Kai automatically falls back through the chain on failure.</p>
 <h2 id="concepts">Concepts</h2>
 <h3 id="service">Service</h3>
 <p>A supported LLM provider. Each service is defined by:</p>
@@ -1253,23 +1532,24 @@
 <li>Entries whose context window can't fit the current chat history are skipped during the walk</li>
 <li>On-device (Local Model) failures are not silently absorbed — they short-circuit the fallback chain so the user sees the actual error rather than being quietly bumped to a cloud service</li>
 <li>On-device entries are also never used as fallback targets: a local model is only tried when it is the primary (first) service in the chain. A cloud-service failure never silently starts a local model load</li>
-<li>Certain non-retryable errors (notably Anthropic's "insufficient credits" and quota-exhausted responses from OpenAI-compatible providers) skip further <strong>per-service</strong> retries and fail that service immediately; the fallback chain still continues to the next instance. Only on-device (Local Model) failures short-circuit the entire chain</li>
+<li>Errors that a retry can't fix skip further <strong>per-service</strong> retries and fail that service immediately: exhausted credits or quota, an invalid API key, an unknown model, a request the provider rejects as malformed, too large or disallowed by moderation, a history that exceeds the context window, and attachments rejected locally for size or type. Unknown or generic errors stay retryable. The fallback chain still continues to the next instance. Only on-device (Local Model) failures short-circuit the entire chain</li>
 </ol>
 <h2 id="api-formats">API Formats</h2>
 <p>Most services use the <strong>OpenAI-compatible</strong> chat completions format. <strong>Gemini</strong> uses Google's native Generative Language API. <strong>Anthropic</strong> uses its own Messages API with <code>x-api-key</code> header authentication and a different request/response structure. <strong>LiteRT</strong> runs inference on-device using Google's LiteRT LM SDK -- no HTTP, no API key, fully offline.</p>
-<p>The <strong>OpenAI-Compatible API</strong> service supports a custom base URL, defaulting to <code>localhost:11434/v1</code> for local Ollama setups. The base URL should include the version path segment (e.g., <code>http://localhost:11434/v1</code> or <code>https://my-provider.com/api/v1</code>), following the OpenAI SDK convention. Kai appends only <code>/chat/completions</code>, <code>/responses</code> or <code>/models</code> to this base URL.</p>
+<p>The <strong>OpenAI-Compatible API</strong> service supports a custom base URL, defaulting to <code>localhost:11434/v1</code> for local Ollama setups. The base URL should include the version path segment (e.g., <code>http://localhost:11434/v1</code> or <code>https://my-provider.com/api/v1</code>), following the OpenAI SDK convention. Kai appends only <code>/chat/completions</code>, <code>/responses</code> or <code>/models</code> to this base URL. A pasted full chat endpoint (ending in <code>/chat/completions</code>) is trimmed back to the base first, so the path is never doubled and the models list still resolves.</p>
 <h3 id="openai-responses-api">OpenAI Responses API</h3>
-<p>OpenAI rejects function tools on chat completions for the GPT-5.6 family (Sol, Terra, Luna), because those models reason by default and that combination is only supported on the Responses API. Any tool-enabled chat -- which is most of Kai -- therefore failed outright on those models.</p>
-<p>Kai recognises the affected model ids and sends their requests to the Responses API instead. The switch is automatic and per model: no setting, no separate service entry, and every other OpenAI model stays on chat completions. It applies only when the request actually reaches OpenAI -- either the OpenAI service, or the OpenAI-Compatible service with a base URL pointing at <code>api.openai.com</code>. Aggregators that resell the same models translate to the Responses API on their own side and keep receiving chat completions.</p>
+<p>OpenAI rejects function tools on chat completions for GPT-5.6 (Sol, Terra, Luna) and every newer family (GPT-6, …), because those models reason by default and that combination is only supported on the Responses API. Any tool-enabled chat -- which is most of Kai -- therefore failed outright on those models.</p>
+<p>Kai reads the GPT version from the model id and, from 5.6 upward, sends their requests to the Responses API instead. The switch is automatic and per model: no setting, no separate service entry, and every other OpenAI model stays on chat completions. It applies only when the request actually reaches OpenAI -- either the OpenAI service, or the OpenAI-Compatible service with a base URL pointing at <code>api.openai.com</code>. Aggregators that resell the same models translate to the Responses API on their own side and keep receiving chat completions.</p>
 <p>Everything ahead of the wire call is shared with the chat-completions path: system prompt placement, attachment handling, tool-call pairing, and context trimming. Only the payload shape differs -- messages become input items, tool calls become <code>function_call</code> items, tool results become <code>function_call_output</code> items, and images move from a nested <code>image_url</code> object to a flat string.</p>
 <p>Two deliberate limits:</p>
 <ul>
 <li><strong>Responses are not stored</strong> (<code>store: false</code>), so OpenAI retains nothing server-side and Kai replays the full conversation on each request rather than chaining response ids.</li>
 <li><strong>Reasoning items are not replayed.</strong> OpenAI recommends echoing back the reasoning that preceded a tool call, but replaying one whose following item was dropped by context trimming is a hard error. Kai trades a re-reasoned tool round-trip for a request that cannot fail that way. Reasoning summaries, when the account is eligible to receive them, are shown in the usual "Thinking" section.</li>
 </ul>
-<p>To add a newly affected model family, extend <code>RESPONSES_API_MODELS</code> in <code>ModelCapabilities.kt</code>.</p>
+<p>Matching on the version rather than a fixed list means a new OpenAI family is routed correctly on release, with no app update.</p>
 <h3 id="session-header-opencode">Session Header (OpenCode)</h3>
 <p>OpenCode Zen identifies the client behind a request by an <code>x-opencode-session</code> header and rejects requests that arrive without one. Kai sends the current conversation id as that session id, so one chat -- however many turns, tool round-trips or bailout retries it takes -- reads as a single session upstream, and separate chats read as separate sessions. Requests that belong to no conversation (fetching the model list, connection validation) carry a session id generated once per app process instead.</p>
+<p>An OpenAI-Compatible service whose base URL points at <code>opencode.ai</code> -- the usual way to reach the OpenCode Go subscription gateway -- is sent the header too.</p>
 <p>The id is Kai's own random conversation identifier; nothing about the user or the machine is derived from it. No other provider is sent the header.</p>
 <h2 id="supported-services">Supported Services</h2>
 <table>
@@ -1335,6 +1615,12 @@
 <td><code>openrouter</code></td>
 <td>Yes</td>
 <td>OpenAI-compatible</td>
+</tr>
+<tr>
+<td>Requesty</td>
+<td><code>requesty</code></td>
+<td>Yes</td>
+<td>OpenAI-compatible (gateway across many upstream vendors; model ids are <code>vendor/model</code>, e.g. <code>openai/gpt-4o-mini</code>; a bad key gets a 403 from <code>/models</code>, so connection validation checks the key first and then loads the model list)</td>
 </tr>
 <tr>
 <td>GroqCloud</td>
@@ -1445,6 +1731,12 @@
 <td>OpenAI-compatible (via <a href="https://oai.aihorde.net/">oai.aihorde.net</a>; model list is the set of text models with online volunteer workers — availability and latency vary)</td>
 </tr>
 <tr>
+<td>1min.AI</td>
+<td><code>1minai</code></td>
+<td>Yes</td>
+<td>OpenAI-compatible (via 1min.AI's <code>/openai/v1</code> adapter; text-only, so image attachments are not sent; requests are capped at 200 messages and 100,000 characters including tool definitions)</td>
+</tr>
+<tr>
 <td>Perplexity</td>
 <td><code>perplexity</code></td>
 <td>Yes</td>
@@ -1465,7 +1757,7 @@
 </tbody>
 </table>
 <h2 id="connection-validation">Connection Validation</h2>
-<p>When the user enters or changes an API key (or base URL), the app validates the connection after an 800 ms debounce and shows a status indicator: <strong>checking</strong>, <strong>connected</strong>, <strong>invalid key</strong>, <strong>quota exhausted</strong>, <strong>rate limited</strong>, <strong>connection failed</strong>, or <strong>local network access denied</strong>. Validation also runs for all services when the settings screen opens. Services validate by fetching their model list — Gemini, Anthropic, and OpenAI-compatible services (including LongCat) each call their respective models endpoint. <strong>Perplexity</strong> is an exception: Sonar has no authenticated models list, so validation probes the chat endpoint with an incomplete body to verify the API key, then loads the curated Sonar model list. On a successful connection, the available model list is refreshed.</p>
+<p>When the user enters or changes an API key (or base URL), the app validates the connection after an 800 ms debounce and shows a status indicator: <strong>checking</strong>, <strong>connected</strong>, <strong>invalid key</strong>, <strong>quota exhausted</strong>, <strong>rate limited</strong>, <strong>connection failed</strong>, or <strong>local network access denied</strong>. Validation also runs for all services when the settings screen opens. Services validate by fetching their model list — Gemini, Anthropic, and OpenAI-compatible services (including LongCat) each call their respective models endpoint. <strong>Perplexity</strong> is an exception: Sonar has no authenticated models list, so validation probes the chat endpoint with an incomplete body to verify the API key, then loads the curated Sonar model list. <strong>Requesty</strong> answers a bad key with 403 on its models endpoint, which the shared error mapping would read as content moderation, so validation checks the key against that endpoint first and only then loads the model list. On a successful connection, the available model list is refreshed.</p>
 <h3 id="local-network-servers-android">Local Network Servers (Android)</h3>
 <p>Android 17+ blocks all traffic to local network hosts unless the user grants the local network permission. When a service's base URL points at a LAN host (private IP range, <code>.local</code> name, or a bare hostname — loopback is exempt), the app requests the permission before validating the connection and before sending a chat message. If the user denies it, the connection status shows "local network access denied" with an "Open settings" button that jumps straight to the app's system settings page, and chat shows an actionable error instead of a silent failure. When the user returns to the app after granting the permission there, the denied connection re-validates automatically (without ever re-prompting). Other platforms don't gate local network access, so the check is a no-op there.</p>
 <h2 id="model-selection">Model Selection</h2>
@@ -1645,10 +1937,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "search.highlight", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "search.highlight", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
     
   </body>
